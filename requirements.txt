@@ -10,5 +10,5 @@ safetensors
 diffusers[torch]==0.11.1 
 transformers 
 xformers==0.0.20 
-triton==2.0.0
+triton==2.1.0
 nvidia-cudnn-cu11
