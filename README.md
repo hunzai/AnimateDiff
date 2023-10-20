@@ -78,8 +78,11 @@ Bo Dai
       </tr>
   </table>
 - GPU Memory Optimization, ~12GB VRAM to inference
-- User Interface: [Gradio](#gradio-demo), A1111 WebUI Extension [sd-webui-animatediff](https://github.com/continue-revolution/sd-webui-animatediff) (by [@continue-revolution](https://github.com/continue-revolution))
-- Google Colab: [Colab](https://colab.research.google.com/github/camenduru/AnimateDiff-colab/blob/main/AnimateDiff_colab.ipynb) (by [@camenduru](https://github.com/camenduru))
+- User Interface: 
+  - A1111 Extension [sd-webui-animatediff](https://github.com/continue-revolution/sd-webui-animatediff) (by [@continue-revolution](https://github.com/continue-revolution))
+  - ComfyUI Extension [ComfyUI-AnimateDiff-Evolved](https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved) (by [@Kosinkadink](https://github.com/Kosinkadink))
+  - [Gradio](#gradio-demo) 
+  - Google Colab: [Colab](https://colab.research.google.com/github/camenduru/AnimateDiff-colab/blob/main/AnimateDiff_colab.ipynb) (by [@camenduru](https://github.com/camenduru))
 
 
 ## Model Zoo
@@ -103,8 +106,8 @@ Bo Dai
   | v2_lora_ZoomOut.ckpt                 | 19 M      | 74 MB         |
   | v2_lora_PanLeft.ckpt                 | 19 M      | 74 MB         |
   | v2_lora_PanRight.ckpt                | 19 M      | 74 MB         |
-  | v2_lora_PanUp.ckpt                   | 19 M      | 74 MB         |
-  | v2_lora_PanDown.ckpt                 | 19 M      | 74 MB         |
+  | v2_lora_TiltUp.ckpt                   | 19 M      | 74 MB         |
+  | v2_lora_TiltDown.ckpt                 | 19 M      | 74 MB         |
   | v2_lora_RollingClockwise.ckpt        | 19 M      | 74 MB         |
   | v2_lora_RollingAnticlockwise.ckpt    | 19 M      | 74 MB         |
 
