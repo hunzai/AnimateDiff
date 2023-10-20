@@ -1,0 +1,18 @@
+GhibliBackground:
+  motion_module:
+    - "models/Motion_Module/mm_sd_v14.ckpt"
+    - "models/Motion_Module/mm_sd_v15.ckpt"
+
+  dreambooth_path: "models/DreamBooth_LoRA/CounterfeitV30_30.safetensors"
+  lora_model_path: "models/DreamBooth_LoRA/lora_Ghibli_n3.safetensors"
+  lora_alpha: 1.0
+
+  seed:           [-1]
+  steps:          25
+  guidance_scale: 7.5
+
+  prompt:
+    - "Two hobbit sisters sitting in a garden of apricots on the edge of a mountain valley, stones in garden,   early morning dawn light, cinematic light, atmospheric effects, art in the style of andreas rocha and studio ghibli"
+
+  n_prompt:
+    - "bad anatomy, blur, low quality, churches, european architecture , naked, nude, distorted face, deformed face, bad anatomy"

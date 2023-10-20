@@ -1,0 +1,18 @@
+GhibliBackground:
+  motion_module:
+    - "models/Motion_Module/mm_sd_v14.ckpt"
+    - "models/Motion_Module/mm_sd_v15.ckpt"
+
+  dreambooth_path: "models/DreamBooth_LoRA/CounterfeitV30_30.safetensors"
+  lora_model_path: "models/DreamBooth_LoRA/lora_Ghibli_n3.safetensors"
+  lora_alpha: 1.0
+
+  seed:           [-1]
+  steps:          25
+  guidance_scale: 7.5
+
+  prompt:
+    - "4k photo of a mountain with snow peak during sunset light, (autumn:1.8),  4k, 3d, cinematic dawn light effect,  extremely detailed, art in the style of andreas rocha and studio ghibli"
+
+  n_prompt:
+    - "(((TOWER))), ((Building)), (((ruins))), ((archaeological )), ((Gable Roof)), (((Hip Roof))),  ((bad architecture)), ((circular roof)), ((African huts)), (((low resolution))),  bad architecture, (((Fairy Castle))),  (((Japanese Architecture))), (((Chinese Architecture)))"
