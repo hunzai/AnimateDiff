@@ -1,0 +1,22 @@
+
+ZoomOut:
+  inference_config: "configs/inference/inference-v2.yaml"
+  motion_module:
+    - "models/Motion_Module/mm_sd_v15_v2.ckpt"
+
+  motion_module_lora_configs:
+    - path:  "models/MotionLoRA/v2_lora_ZoomOut.ckpt"
+      alpha: 1.0
+
+  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV20_v20.safetensors"
+  lora_model_path: ""
+
+  seed:           45987230
+  steps:          25
+  guidance_scale: 7.5
+
+  prompt:
+    - "a (((full body))) portrait of a beautiful woman looking straight++ at camera, LOOKING AT CAMERA, wearing Salwar kameez, straight shoulders,   ((STRAIGHT POSTURE)),  (((straight body position))) ,  (extremely detailed CG unity 8k wallpaper), full shot body photo of the most beautiful artwork in the world, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus,  photorealistic painting art by midjourney and greg rutkowski, Fujifilm XT3"
+
+  n_prompt:
+    - "blur, ((party dress)), looking left, looking side, side photo, ((((NUDE)))), ((nipple)), ((((ugly)))), (((duplicate))), ((morbid)), ((mutilated)), (((tranny))), (((trans))), (((transsexual))), (hermaphrodite), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))). (((more than 2 nipples))). [[[adult]]], out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), ((((SIDE POSE)))), (((ASIAN))),  ((nsfw))"
