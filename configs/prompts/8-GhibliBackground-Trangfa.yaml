@@ -12,7 +12,7 @@ GhibliBackground:
   guidance_scale: 7.5
 
   prompt:
-    - "Retro ghibli scene, A  close-up photo of an wise old man sitting in an ancient chair wearing a brown woollen dress, in the style of "Hayao Miyazaki" , animated film pioneer, 2D, bold,lined,high detailed, maximum shading, hyper-realistic"
+    - "Retro ghibli scene, A  close-up photo of an wise old man sitting in an ancient chair wearing a brown woollen dress, in the style of Hayao Miyazaki , animated film pioneer, 2D, bold,lined,high detailed, maximum shading, hyper-realistic"
 
   n_prompt:
     - "((Priest like dress)), (((Priest))),  ((blond)), (((wearing glasses))), blurred face, distorted faces, bad face, ugly, deformed nose, bad anatomy,  deformed boy , deformed arms, day light, more than two arms, multiple feet, LOW QUALITY"
